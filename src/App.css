@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+body{text-align: center; font-family:sans-serif;}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg); }
+  }
+
+  .AddPlayer{ display: flex; flex-direction: column; width: 200px; height: 200px; margin: auto; margin-top: 30px;
+  justify-content: space-around;}
+
+.gameScreen{ display: flex; justify-content: space-around ;margin-top: 10%;}
+
+.UserScreen{border: 2px solid ;
+width: 200px;
+height: 350px;
+text-align: center;}
+
